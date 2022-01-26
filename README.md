@@ -45,7 +45,7 @@ int x = 7;
 ```
 
 ## 2. Operator Matematika Sederhana
-Operator dapat dipahami sebagai sesuatu yang dapat melakukan operasi pada operan (variabel/nilai). Contohnya, operator '+' digunakan untuk operasi penjumlahan. Operator matematika sederhana dapat dibagi menjadi 2, yaitu Operator Assginment dan Operator Aritmatika.
+Operator dapat dipahami sebagai sesuatu yang dapat melakukan operasi pada operan (variabel/nilai). Contohnya, operator '+' digunakan untuk operasi penjumlahan. Operator matematika sederhana dapat dibagi menjadi 2, yaitu Operator Assignment dan Operator Aritmatika.
 
 ### 2.1 Operator Assignment
 Operator Assignment digunakan untuk mengisikan (assign) sebuah nilai ke variabel. Simbol yang biasa digunakan adalah tanda '=' (tanda sama dengan). Contohnya:
