@@ -1,7 +1,7 @@
 # Modul 2 Praktikum : Konsep Dasar Algoritma
 ## 1. Variabel (Materi Pendalaman)
 ### 1.1 Pengenalan Variabel
-![image](image1)
+![image1](https://user-images.githubusercontent.com/62087953/151223376-fa9031b2-9a9e-4c24-b2c3-415db37b17b6.jpg)
 **Variabel** dapat dianalogikan/diibaratkan sebagai sebuah gelas, di mana dapat menampung sebuah cairan. Cairan ini dianalogikan sebagai data. Dalam artian lain, Variabel adalah suatu tempat yang digunakan untuk menampung data atau nilai pada memori yang mempunyai nilai yang dapat berubah–ubah selama proses program. Dalam bahasa C, kita tidak akan terlepas dari penggunaan variabel, karena pada dasarnya sebuah program bekerja dengan melakukan pengolahan data.
 
 ### 1.2 Deklarasi Variabel
