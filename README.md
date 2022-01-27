@@ -332,8 +332,10 @@ Misal 12 dan 5. Representasi 12 dan 5 dalam basis biner adalah 12 = (1100) dan 5
 ```c
  12 = (1100)
 ~12 = (0011)
-Bitwise SHIFT LEFT
 ```
+
+**Bitwise SHIFT LEFT**
+
 Misal kita hendak menggeser bit bilangan 13 ke kiri sebanyak 2, maka 13 << 2.
 ```c
      13 = (001101)
