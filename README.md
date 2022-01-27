@@ -463,20 +463,29 @@ Operator lainnya yang belum disebutkan pada modul ini akan dijelaskan di modul-m
 ## Soal Latihan
 ### Buatlah penyelesaian dari soal berikut ini:
 1. Buatlah program yang dapat mengonversi suhu derajat Celcius (C) di bawah ini menjadi Reamur (R), Fahrenheit (F), dan Kelvin (K):
-     - 100° C
-     - 0° C
-     - -24° C
-     - 75.86° C
+
+     A. 100° C
+     
+     B. 0° C
+     
+     C. -24° C
+     
+     D. 75.86° C
 
 2. Buatlah program menggunakan operator relasional yang dapat membandingkan kedua bilangan di bawah ini:
-     - -45 dengan 31
-     - 0.31 dengan -0.513
+
+     A. -45 dengan 31
+     
+     B. 0.31 dengan -0.513
      
 3. Operasikan kedua bilangan berikut ini menggunakan setiap operator bitwise:
-     - 6 dan 3
-     - 2 dan -7
+
+     A. 6 dan 3
+     
+     B. 2 dan -7
 
 4. Sebuah variabel `a` bertipe data integer bernilai 8 masuk ke dalam cuplikan program rumit berikut:
+
 ```c
 a++; 
 ++a;
