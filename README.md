@@ -461,7 +461,6 @@ Penggunaan paling umum operator ini adalah untuk melakukan pengaksesan terhadap 
 Operator lainnya yang belum disebutkan pada modul ini akan dijelaskan di modul-modul selanjutnya.
 
 ## Soal Latihan
-### Buatlah penyelesaian dari soal berikut ini:
 1. Buatlah program yang dapat mengonversi suhu derajat Celcius (C) di bawah ini menjadi Reamur (R), Fahrenheit (F), dan Kelvin (K):
 
      A. 100° C
