@@ -1,7 +1,28 @@
 # Modul 2 Praktikum : Konsep Dasar Algoritma
 
 ## Daftar Isi
+- [1. Variabel (Materi Pendalaman)](#1-variabel-materi-pendalaman)
+     - [1.1 Pengenalan Variabel](#11-pengenalan-variabel)
+     - [1.2 Deklarasi Variabel](#12-deklarasi-variabel)
+     - [1.3 Pengisian Nilai Variabel](#13-pengisian-nilai-variabel)
+     - [1.4 Inisialisasi Variabel](#14-inisialisasi-variabel)
+ 
+- [2. Operator Matematika Sederhana](#2-operator-matematika-sederhana)
+     - [2.1 Operator Assignment](#21-operator-assignment)
+     - [2.2 Operator Aritmatika](#22-operator-aritmatika)
 
+- [3. Operator-Operator Lainnya](#3-operator-operator-lainnya)
+     - [3.1 Operator Increment dan Decrement](#31-operator-increment-dan-decrement)
+     - [3.2 Operator Relasional](#32-operator-relasional)
+     - [3.3 Operator Logika](#33-operator-logika)
+     - [3.4 Operator Bitwise](#34-operator-bitwise)
+     - [3.5 Operator Gabungan](#35-operator-gabungan)
+     - [3.6 Operator sizeof()](#36-operator-sizeof)
+     - [3.7 Operator Address-of (&)](#37-operator-address-of-)
+     - [3.8. Operator Deference (*)](#38-operator-deference-)
+     - [3.9 Operator Kondisional (? :)](#39-operator-kondisional--)
+     - [3.10 Operator Koma (,)](#310-operator-koma-)
+     - [3.11 Operator Subscript ( [] )](#311-operator-subscript---)
 
 ## 1. Variabel (Materi Pendalaman)
 ### 1.1 Pengenalan Variabel
