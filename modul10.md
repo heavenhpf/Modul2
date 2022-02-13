@@ -16,7 +16,7 @@ Berdasarkan siapa yang membuat, fungsi bisa dibedakan ke dalam 2 kelompok:
 
 **Built-In Function** adalah sebutan untuk fungsi yang sudah ada secara bawaan dari dalam bahasa pemrograman, sedangkan **User Defined Function** adalah fungsi yang kita (sebagai programmer) membuatnya sendiri. Bahasa C menyediakan banyak fungsi bawaan, belum termasuk yang bisa diakses dari berbagai library atau package pihak ketiga. Sebagai contoh, printf(), scanf() dan strcpy() adalah function bawaan bahasa C. Namun dalam tutorial kali ini yang akan kita bahas adalah jenis User Defined Function.
 
-### 1.2 Deklarasi Fungsi
+### 1.2 Implementasi Fungsi
 Secara garis besar, syntax fungsi adalah sebagai berikut:
 ```c
 <tipe_data> <nama_fungsi> (<parameter1>, <parameter2>, dst..){
@@ -167,8 +167,108 @@ int jumlah(int a, int b)
 ```
 ## 2. Rekursif
 ### 2.1 Pengertian Rekursif
+**Rekursif** merupakan suatu proses dari fungsi yang memanggil dirinya secara berulang kali. Dikarenakan prosesnya dilakukan secara berulang-ulang, maka harus ada kondisi atau validasi yang dapat mengakhiri proses dari rekursif. Jika tidak, maka proses rekursif tidak akan berhenti sampai memori yang digunakan tidak dapat menampung lagi.
 
+Rekursif adalah konsep penting pada bahasa c penggunaan rekursif seringkali digunakan pada struktur data dan algoritma, contohnya adalah untuk menggunakan rekursif dalam masalah seperti traversal tree.
+	
 ### 2.2 Implementasi Rekursif
-### 2.3 Rekursif vs Fungsi Biasa
+
+Berikut adalah syntax dari implementasi fungsi rekursif:
+```c
+#include <stdio.h>
+
+// Deklarasi Fungsi Rekursif
+<tipe_data> <fungsi_rekursif>()
+{
+    ... .. ... //kode
+    rekursif();
+    ... .. ... //kode
+}
+
+int main()
+{
+    ... .. ... //kode
+    rekursif(); // Pemanggilan Fungsi Rekursif
+    ... .. ... //kode
+}	
+```	
+
+Catatan mengenai rekursif:
+	
+1. Rekursif akan berlanjut sampai beberapa kondisi terpenuhi untuk menghentikan prosesnya.
+
+2.Untuk menghentikan rekursif tak terbatas, dapat menggunakan pernyataan `if/else` (atau pendekatan serupa) dapat digunakan di mana satu cabang membuat panggilan rekursif, dan yang lainnya tidak.
+	
+Berikut adalah contoh implementasi program rekursif untuk menghitung bilangan faktorial:
+
+```c
+#include <stdio.h>
+
+// Fungsi Rekursif
+int faktorial(int angka){
+    if(angka <= 1){
+        return 1;   
+    }
+    else{
+        return angka * faktorial(angka-1);
+    }   
+}
+ 
+int main(){
+    int angka = 4;
+    printf("faktorial dari %d = %d\n", angka, faktorial(angka)); // Pemanggilan Fungsi Rekursif "faktorial"
+    return 0;
+}	
+```
+
+Penjelasan mengenai program di atas:
+		 
+1. Pada function faktorial terdapat penggunaan `if else` yang bergunakan untuk melanjutkan atau menghentikan rekursif, dikarenakan rekursif akan melakukan sebuah proses secara berulang – ulang.
+
+2. Pada code di atas, `if` berfungsi me-return value 1 jika nilai angka <= 1.
+
+3. Sedangkan, `else` berfungsi jika angka yang di input valid atau dapat diproses, maka akan melakukan proses faktorial.
+
+4. Pada fungsi `main` terdapat deklarasi variabel data yang ingin kita periksa faktorialnya dan memanggil function faktorial.
 
 ## Latihan Soal
+1. Diberikan baris bilangan 1, 3, 5, 7, 9, 11, ... dst. Buatlah program yang mengimplementasikan fungsi rekursif yang dapat menentukan bilangan ke-n dari baris tersebut.
+	
+Contoh Input:
+```c
+4	
+```
+Contoh Output:
+```c
+7	
+```
+
+2. Diberikan deret aritmatika dari bilangan fibbonacci 1, 1, 2, 3, 5, 8, 13, 21, ... dst. Buatlah program yang mengimplementasikan fungsi rekursif yang dapat menentukan jumlah deret bilangan ke-n dari baris tersebut.
+	
+Contoh Input 1:
+```c
+3	
+```
+Contoh Output 1:
+```c
+4
+```
+	
+Contoh Input 2:
+```c
+5	
+```
+Contoh Output 2:
+```c
+12
+```
+	
+3. Buatlah program dengan menggunakan rekursif yang saat menghasilkan output sebagai berikut:
+```c
+mundur 3
+mundur 2
+mundur 1
+maju 1
+maju 2
+maju 3	
+```
