@@ -100,10 +100,10 @@ void tambahkan(int a, int b)
  
 int main()
 {
-	tambahkan(5,3);
-  tambahkan(9,5);
-  tambahkan(7,8);
- 	return 0;
+    tambahkan(5,3);
+    tambahkan(9,5);
+    tambahkan(7,8);
+    return 0;
 }  
 ```
 
