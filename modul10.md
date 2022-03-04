@@ -1,8 +1,8 @@
 # Modul 10 Praktikum : Fungsi dan Rekursif
 
 ## Daftar Isi
-- [1. Fungsi](#1-variabel-materi-pendalaman)
-     - [1.1 Pengenalan Variabel](#11-pengenalan-variabel)
+- [1. Fungsi](#1-fungsi)
+     - [1.1 Pengertian Fungsi](#11-pengertian-fungsi)
      - [1.2 Deklarasi Variabel](#12-deklarasi-variabel)
      - [1.3 Pengisian Nilai Variabel](#13-pengisian-nilai-variabel)
      - [1.4 Inisialisasi Variabel](#14-inisialisasi-variabel)
