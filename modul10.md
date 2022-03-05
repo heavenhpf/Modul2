@@ -275,7 +275,7 @@ Contoh Output 2:
 12
 ```
 	
-3. Buatlah program dengan menggunakan rekursif yang saat menghasilkan output sebagai berikut:
+3. Buatlah program dengan mengimplementasikan rekursif yang menghasilkan output sebagai berikut:
 ```c
 mundur 3
 mundur 2
