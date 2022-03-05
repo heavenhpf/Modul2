@@ -7,6 +7,9 @@
  
 - [2. Rekursif](#2-rekursif)
      - [2.1 Pengertian Rekursif](#21-pengertian-rekursif)
+     - [2.2 Implementasi Rekursif](#22-implementasi-rekursif)
+
+- [Latihan Soal](#latihan-soal)
 
 ## 1. Fungsi
 ### 1.1 Pengertian Fungsi
