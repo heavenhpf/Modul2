@@ -7,7 +7,8 @@
  
 - [2. Rekursif](#2-rekursif)
      - [2.1 Pengertian Rekursif](#21-pengertian-rekursif)
-     - [2.2 Implementasi Rekursif](#22-implementasi-rekursif)
+     - [2.2 Rekursif vs Iteratif](#22-rekursif-vs-iteratif)
+     - [2.3 Implementasi Rekursif](#23-implementasi-rekursif)
 
 - [Latihan Soal](#latihan-soal)
 
@@ -183,10 +184,37 @@ int jumlah(int a, int b)
 Pengertian dari fungsi **rekursif** dapat dianalogikan seperti lukisan di atas. Terdapat sebuah lukisan tangan yang sedang menggambar dan gambar didalamnya menggambarkan hal yang sama secara berulang-ulang sehingga gambar tersebut mengecil dan mengecil. Gambar tersebut akan berhenti sampai pelukis tidak mampu menggambarkan hal serupa dikarenakan kanvas dan alat lukis yang tidak memadahi.
 	
 Berdasarkan penganalogian tersebut, secara garis besar **Rekursif** merupakan suatu proses dari fungsi yang memanggil dirinya secara berulang kali. Dikarenakan prosesnya dilakukan secara berulang-ulang, maka harus ada kondisi atau validasi yang dapat mengakhiri proses dari rekursif. Jika tidak, maka proses rekursif tidak akan berhenti sampai memori yang digunakan tidak dapat menampung lagi.
-
-Rekursif adalah konsep penting pada bahasa c penggunaan rekursif seringkali digunakan pada struktur data dan algoritma, contohnya adalah untuk menggunakan rekursif dalam masalah seperti traversal tree.
 	
-### 2.2 Implementasi Rekursif
+### 2.2 Rekursif vs Iteratif
+	
+Pada beberapa kasus, kita dapat memilih untuk menyelesaikan program yang memerlukan perulangan (looping) dengan menggunakan rekursif atau iteratif. Agar tidak bingung menggunakan yang mana, kita dapat mempertimbangkan dengan melihat perbedaan dari keduanya. Berikut adalah perbedaan utama antar keduanya:
+	
+- Iteratif menggunakan percabangan FOR, WHILE, DO-WHILE, sedangkan rekursif hanya menggunakan IF.
+- Iteratif dapat berjalan pada program yang terdiri dari prosedur (Tidak terdapat fungsi), sedangkan rekursif merupakan fungsi.
+	
+Selain itu, rekursif dan iteratif memiliki kelebihan dan kekurangannya masing-masing. Berikut adalah penjelasannya:
+	
+### Rekursif
+| No. | Kelebihan| Kekurangan |
+| ------ | ------ | ------ |
+| 1 | Sangat mudah untuk melakukan perulangan dengan batasan yang luas dalam artian melakukan perulangan dalam skala yang besar. | Tidak bisa melakukan nested loop atau looping bersarang |
+| 2 | Dapat melakukan perulangan dengan batasan fungsi | Biasanya membuat fungsi sulit untuk dipahami, hanya cocok untuk persoalan tertentu saja |
+| 3 |  | Memerlukan stack yang lebih besar, sebab setiap kali fungsi dipanggil, variabel lokal dan parameter formal akan ditempatkan ke stack dan ada kalanya akan menyebabkan stack tak cukup lagi (Stack Overrun) |
+| 4 |  | Proses agak berbelit-belit karena terdapat pemanggilan fungsi yang berulang-ulang dan pemanggilan data yang ditumpuk |
+
+### Iteratif
+	
+| No. | Kelebihan| Kekurangan |
+| ------ | ------ | ------ |
+| 1 | Mudah dipahami dan mudah dilakukan debugging ketika ada perulangan yang salah | Tidak dapat menggunakan batasan berupa fungsi |
+| 2 | Dapat melakukan nested loop atau yang disebut dengan looping bersarang | Perulangan dengan batasan yang luas akan menyulitkan dalam pembuatan program perulangan itu sendiri. |
+| 3 | Proses lebih singkat karena perulangan terjadi pada kondisi yang telah disesuaikan |  |
+| 4 | Jarang terjadi overflow karena batasan dan syarat perulangan yang jelas |  |
+	
+
+Meskipun iteratif memiliki lebih banyak kelebihan, rekursif juga merupakan algoritma pemrograman yang penting. Rekursif akan sering digunakan pada struktur data dan algoritma, contohnya adalah untuk menggunakan rekursif dalam masalah seperti traversal tree.
+	
+### 2.3 Implementasi Rekursif
 
 Berikut adalah syntax dari implementasi fungsi rekursif:
 ```c
