@@ -2,15 +2,15 @@
 
 ## Daftar Isi
 
-- [1. Memori Dinamis]()
-     - [1.1 Pengertian Memori Dinamis]()
-     - [1.2 Cara Kerja Memori Dinamis]()
-     - [1.3 Memori Statis vs Memori Dinamis]()
+- [1. Memori Dinamis](#1-memori-dinamis)
+     - [1.1 Pengertian Memori Dinamis](#11-pengertian-memori-dinamis)
+     - [1.2 Cara Kerja Memori Dinamis](#12-cara-kerja-memori-dinamis)
+     - [1.3 Memori Statis vs Memori Dinamis](#13-memori-statis-vs-memori-dinamis)
 
-- [2. Operator Malloc()]()
-     - [2.1 Pengertian malloc()]()
-     - [2.2 Syntax malloc()]()
-     - [2.3 Implementasi malloc()]()
+- [2. Operator Malloc()](#21-operator-malloc)
+     - [2.1 Pengertian malloc()](#21-operator-malloc)
+     - [2.2 Syntax malloc()](#22-syntax-malloc)
+     - [2.3 Implementasi malloc()](#23-implementasi-malloc)
 
 - [Latihan Soal](#latihan-soal)
 
