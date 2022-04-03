@@ -24,7 +24,7 @@ Secara umum, quick sort memiliki dibandingkan dengan algoritma sorting lainnya, 
 ## 3. Kekurangan Quick Sort
 Di samping kelebihan yang ada, terdapat juga beberapa kekurangan dari penggunaan algoritma quick sort. Diantaranya adalah sebagai berikut:
 1. Sedikit kesalahan dalam penulisan program membuatnya bekerja tidak beraturan (hasilnya tidak benar atau tidak pernah selesai).
-2. Memiliki ketergantungan terhadap data yang dimasukkan, yang dalam kasus terburuk memiliki kompleksitas O(n2).
+2. Memiliki ketergantungan terhadap data yang dimasukkan, yang dalam kasus terburuk memiliki kompleksitas O(n^2).
 3. Secara umum bersifat tidak stable, yaitu mengubah urutan input dalam hasil akhirnya (dalam hal inputnya bernilai sama).
 4. Pada penerapan secara rekursif (memanggil dirinya sendiri) bila terjadi kasus terburuk dapat menghabiskan stack dan memacetkan program.
 
