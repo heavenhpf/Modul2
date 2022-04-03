@@ -2,11 +2,11 @@
 
 ## Daftar Isi
 
-- [1. Pengertian Quick Sort]()
-- [2. Kelebihan Quick Sort]()
-- [3. Kekurangan Quick Sort]()
-- [4. Cara Kerja Quick Sort]()
-- [5. Implementasi Quick Sort]()
+- [1. Pengertian Quick Sort](#1-pengertian-quick-sort)
+- [2. Kelebihan Quick Sort](#2-kelebihan-quick-sort)
+- [3. Kekurangan Quick Sort](#3-kekurangan-quick-sort)
+- [4. Cara Kerja Quick Sort](#4-cara-kerja-quick-sort)
+- [5. Implementasi Quick Sort](#5-implementasi-quick-sort)
 
 ## 1. Pengertian Quick Sort
 **Quick Sort** adalah salah satu algoritma pengurutan data yang paling cepat, yaitu dengan membagi list menggunakan sebuah **pivot**. Quick Sort juga menggunakan rekursif dalam algoritmanya. Data yang kurang dari pivot sudah ditentukan ditaruh disebelah kirinya pivot sedangkan data yang lebih besar dari pivot maka ditaruh disebelah kanan pivot. Metode dari algoritma ini adalah divide and conquer (bagi dan kuasai), dimana sebuah List akan dibagi menjadi 2 bagian berdasarkan pivot, yaitu elemen yang lebih kecil dari pivot dan elemen yang lebih kecil dari pivot. Lalu, elemen tersebut dibagi kembali dengan mengguanakn pivot baru sampai semua elemen berhasil di sorting.
@@ -22,7 +22,7 @@ Secara umum, quick sort memiliki dibandingkan dengan algoritma sorting lainnya, 
 5. Bekerja dengan baik pada berbagai jenis input data (seperti angka dan karakter).
 
 ## 3. Kekurangan Quick Sort
-Di samping kelebihan yang ada, terdapat juga beberapa kekurangan quick sort. Diantaranya adalah sebagai berikut:
+Di samping kelebihan yang ada, terdapat juga beberapa kekurangan dari penggunaan algoritma quick sort. Diantaranya adalah sebagai berikut:
 1. Sedikit kesalahan dalam penulisan program membuatnya bekerja tidak beraturan (hasilnya tidak benar atau tidak pernah selesai).
 2. Memiliki ketergantungan terhadap data yang dimasukkan, yang dalam kasus terburuk memiliki kompleksitas O(n2).
 3. Secara umum bersifat tidak stable, yaitu mengubah urutan input dalam hasil akhirnya (dalam hal inputnya bernilai sama).
@@ -58,7 +58,7 @@ Berikut merupakan implementasi dari Quick Sort:
 #include <bits/stdc++.h>
 using namespace std;
 
-// A utility function to swap two elements
+// Fungsi untuk memindah antara 2 elemen dalam array
 void swap(int* a, int* b)
 {
 	int t = *a;
@@ -66,11 +66,10 @@ void swap(int* a, int* b)
 	*b = t;
 }
 
-/* This function takes last element as pivot, places
-the pivot element at its correct position in sorted
-array, and places all smaller (smaller than pivot)
-to left of pivot and all greater elements to right
-of pivot */
+/* Fungsi untuk mengambil elemen terakhir sebagai pivot,
+menaruh elemen pivot ke posisi yang urut, dan menempatkan
+semua elemen yang lebih kecil dari pivot ke sebelah kiri
+pivot dan sebaliknya. */
 int partition (int arr[], int low, int high)
 {
 	int pivot = arr[high]; // pivot
@@ -89,7 +88,7 @@ int partition (int arr[], int low, int high)
 	return (i + 1);
 }
 
-/* The main function that implements QuickSort
+/* Fungsi utama QuickSort
 arr[] --> Array to be sorted,
 low --> Starting index,
 high --> Ending index */
@@ -108,7 +107,7 @@ void quickSort(int arr[], int low, int high)
 	}
 }
 
-/* Function to print an array */
+/* Fungsi untuk print output dari array hasil sorting */
 void printArray(int arr[], int size)
 {
 	int i;
