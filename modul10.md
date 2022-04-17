@@ -14,7 +14,7 @@
 
 ## 1. Fungsi
 ### 1.1 Pengertian Fungsi
-Dalam pemrograman C, **Fungsi** merupakan kumpulan dari beberapa kode program yang dirancang untuk **menyelesaikan sebuah tugas tertentu**. Fungsi sering digunakan untuk membungkus program menjadi bagian-bagian kecil. Logika program yang ada di dalam fungsi **dapat kita gunakan kembali hanya dengan memanggilnya**, sehingga dapat digunakan lebih dari satu kali.
+Dalam pemrograman C, **Fungsi** merupakan kumpulan dari beberapa kode program yang dirancang untuk **menyelesaikan sebuah tugas tertentu**. Fungsi sering digunakan untuk membungkus program menjadi bagian-bagian kecil. Logika program yang ada di dalam fungsi **dapat kita gunakan kembali cukup hanya dengan memanggilnya**, sehingga dapat digunakan lebih dari satu kali.
 
 Contoh fungsi yang sudah tidak asing lagi karena sering kita buat adalah fungsi `main()`. Fungsi ini memang wajib ada di setiap program C karena akan dieksekusi pertama kali.
 
