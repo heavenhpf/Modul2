@@ -17,9 +17,7 @@
 ## 1 Memori Dinamis
 ### 1.1 Pengertian Memori Dinamis
 
-<br>
-<img src="https://github.com/heavenhpf/ModulPATP2022/issues/1#issue-1211832665" width="500">
-<br>
+![image1](https://user-images.githubusercontent.com/62087953/164607818-fa5b230c-b86d-4f3f-9603-e7ec985b9fdc.jpg)
 
 **Dynamic Memory** atau dalam Bahasa Indonesia disebut **Memori dinamis**, adalah suatu teknik alokasi memori yang memungkinkan program memesan memori di saat program berjalan (runtime), bukan di saat eksekusi program.
 
@@ -111,9 +109,7 @@ int main()
 ## Latihan Soal
 1. Buatlah program C untuk mencari angka terbesar yang diinputkan menggunakan alokasi memori dinamis. Pada input baris pertama merupakan jumlah angka yang ingin dimasukkan. Kemudian, baris kedua dituliskan baris-baris angkanya.
 
-<br>
-<img src="![image2](https://user-images.githubusercontent.com/62087953/164607945-655585f2-d904-4406-9cee-634c970db249.jpg)" width="500">
-<br>
+![image2](https://user-images.githubusercontent.com/62087953/164607945-655585f2-d904-4406-9cee-634c970db249.jpg)
 
 > **Contoh Input:**
 > 5
