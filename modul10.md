@@ -311,7 +311,6 @@ Contoh Output 2:
 mundur 3
 mundur 2
 mundur 1
-maju 1
 maju 2
 maju 3	
 ```
