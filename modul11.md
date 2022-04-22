@@ -109,7 +109,7 @@ int main()
 ## Latihan Soal
 1. Buatlah program C untuk mencari angka terbesar yang diinputkan menggunakan alokasi memori dinamis. Pada input baris pertama merupakan jumlah angka yang ingin dimasukkan. Kemudian, baris kedua dituliskan baris-baris angkanya.
 
-![image2](https://user-images.githubusercontent.com/62087953/164607945-655585f2-d904-4406-9cee-634c970db249.jpg)
+<img src="https://user-images.githubusercontent.com/62087953/164607945-655585f2-d904-4406-9cee-634c970db249.jpg" width="400"/>
 
 > **Contoh Input:**
 > 5
