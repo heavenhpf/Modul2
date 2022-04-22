@@ -286,7 +286,7 @@ Contoh Output:
 7	
 ```
 
-2. Diberikan deret aritmatika dari bilangan fibbonacci 1, 1, 2, 3, 5, 8, 13, 21, ... dst. Buatlah program yang mengimplementasikan fungsi rekursif yang dapat menentukan jumlah deret bilangan ke-n dari baris tersebut.
+2. Diberikan deret aritmatika dari bilangan fibbonacci 1, 1, 2, 3, 5, 8, 13, 21, ... dst. Buatlah program yang mengimplementasikan fungsi yang dapat menentukan jumlah deret bilangan ke-n dari baris tersebut.
 	
 Contoh Input 1:
 ```c
