@@ -73,7 +73,7 @@ Fungsi `belajarfungsi()` dapat digunakan berkali-kali sesuai dengan kebutuhan, c
 
 // Deklarasi fungsi "belajarfungsi"
 void belajarfungsi(){
-    printf("Halo, Selamat Belajar Fungsi!");
+    printf("Halo, Selamat Belajar Fungsi!\n");
 }
 
 int main(){
