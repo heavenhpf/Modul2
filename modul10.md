@@ -275,7 +275,7 @@ Penjelasan mengenai program di atas:
 4. Pada fungsi `main` terdapat deklarasi variabel data yang ingin kita periksa faktorialnya dan memanggil function faktorial.
 
 ## Latihan Soal
-1. Diberikan baris bilangan 1, 3, 5, 7, 9, 11, ... dst. Buatlah program yang mengimplementasikan fungsi rekursif yang dapat menentukan bilangan ke-n dari baris tersebut.
+1. Diberikan baris bilangan 1, 3, 5, 7, 9, 11, ... dst. Buatlah program yang mengimplementasikan fungsi rekursif yang dapat menentukan bilangan ke-n (n = 100) dari baris tersebut.
 	
 Contoh Input:
 ```c
