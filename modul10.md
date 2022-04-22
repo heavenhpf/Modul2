@@ -290,20 +290,20 @@ Contoh Output:
 	
 Contoh Input 1:
 ```c
-3	
+4	
 ```
 Contoh Output 1:
 ```c
-4
+3
 ```
 	
 Contoh Input 2:
 ```c
-5	
+7	
 ```
 Contoh Output 2:
 ```c
-12
+13
 ```
 	
 3. Buatlah program dengan mengimplementasikan rekursif yang menghasilkan output sebagai berikut:
