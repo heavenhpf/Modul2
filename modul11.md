@@ -58,7 +58,7 @@ void *malloc(size_t size)
 int main()
 {
      char *dynamicMem; // Deklarasi pointer dynamicMem bertipe data char
-     dynamicMem = malloc( 20 * sizeof(char)); // Mengalokasikan memori dinamis sebesar 20 kali ukuran tipe data char
+     dynamicMem = (char *) malloc(10 * sizeof(char)); // Mengalokasikan memori dinamis sebesar 10 kali ukuran tipe data char
      
      // Jika memori dinamis gagal dialokasikan
      if(dynamicMem == NULL)
