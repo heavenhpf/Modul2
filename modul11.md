@@ -112,6 +112,7 @@ int main()
 <img src="https://user-images.githubusercontent.com/62087953/164607945-655585f2-d904-4406-9cee-634c970db249.jpg" width="400"/>
 
 > **Contoh Input:**
+
 > 5
 > 5 7 2 9 8
 
